@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="container">Web Workers</h1>
+
+    <h4 class="container">Explore our website's enhanced performance thanks to Web Workers.
+        These background scripts ensure smooth user experiences by handling heavy computations without
+        freezing the interface.
+    </h4>
+
+    <div class="container">
+        <div class="container-instructions">
+            <ul>
+                <h3>Instructions</h3>
+                <li class="container-instructions">- The first button changes the background color of the web page.</li>
+                <li class="container-instructions">- The second button will calculate the sum of all numbers from 1 to 3 billion.</li>
+                <li class="container-instructions">- The first pair of buttons will do the job without using the web workers.</li>
+                <li class="container-instructions">- The second pair of buttons will do it using web workers.</li>
+            </ul>
+        </div>
+        
+    </div>
+    
+    
+    <div class="box">
+        <h3>Without Web Workers</h3>
+        <button id="btn1" class="btn btn-primary">Change Color</button>
+        <button id="btn2" class="btn btn-secondary">Compute</button>
+      </div>
+ 
+      <!-- Second pair of buttons with Web Workers -->
+      <div class="box">
+        <h3>Using Web Workers</h3>
+        <button id="btn3" class="btn btn-primary">Change Color</button>
+        <button id="btn4" class="btn btn-secondary">Compute</button>
+      </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
