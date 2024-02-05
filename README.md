@@ -6,7 +6,7 @@ This is a small website developed to show the usage of Web Workers and how it en
 The project is a web application designed to demonstrate the usage and benefits of Web Workers in modern web development. It features paired buttons for various tasks, some utilizing Web Workers for improved performance.
 
 ## How to Run the Project Locally
-1. Clone the repository to your local machine: `git clone https://github.com/akmalstanikzai/Books-Web-App.git`
+1. Clone the repository to your local machine: `git clone https://github.com/akmalstanikzai/Web-Workers.git`
 2. Navigate to the project directory: `cd project-directory`
 3. Open the `index.html` file in your preferred web browser.
 
